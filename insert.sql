@@ -11,7 +11,7 @@ CREATE TABLE Books (
 )
 ALTER TABLE Books ADD published VARCHAR(50) NOT NULL
 ALTER TABLE Books ADD number_pages INT NOT NULL
-INSERT INTO Books (title, author, genre, published_year, isbn, price, rating, stock_count, publisher, pages) 
+INSERT INTO Books (title, author, genre, published_year, isbn, price, rating, stock_count, published, number_pages) 
 VALUES
 ("A Journey to the Center", 'Jules Verne','Adventure', 1864, 1234567890123, 12.99, 4.5, 10, 'Verne Publishing', 350)
 ('War and Peace', 'Leo Tolstoy', 'Historica', 1869, 1234567890124, 14.99, 4.8, 5, 'Tolstoy Prints', 1200)
